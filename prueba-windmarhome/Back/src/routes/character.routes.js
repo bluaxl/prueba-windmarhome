@@ -3,7 +3,8 @@ import { createCharacter, getCharacter } from "../controller/character.controlle
 
 const router = Router()
 
-router.get('/characters/:id', createCharacter)
-router.post('/characters', getCharacter)
+router.get('/characters/:id', getCharacter)
+router.post('/character', createCharacter)
+
 
 export default router

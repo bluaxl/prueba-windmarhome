@@ -18,7 +18,7 @@ export class CharacterRepository{
             date,
             description,
             img
-        })
+        }).save()
         return character
     }
 
